@@ -1,4 +1,4 @@
-<img src="https://github.com/yodellabs/ALPS-Simple-Example/blob/master/logo.png" width="320">
+<img src="https://github.com/yodellabs/ALPS-Framework-iOS/blob/master/docs/logo.png" width="320">
 
 # ALPS-Framework-iOS
 The Acoustic Location Processing System (ALPS) framework provides indoor localization services to iOS devices. ALPS uses time-of-flight ranging from ultrasound beacons at known locations to determine the location of the mobile device.
