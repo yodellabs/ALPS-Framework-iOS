@@ -1,6 +1,7 @@
 var searchData=
 [
   ['alpslocallocation',['ALPSLocalLocation',['../interface_a_l_p_s_local_location.html',1,'']]],
+  ['alpslocation3d',['ALPSLocation3D',['../struct_a_l_p_s_location3_d.html',1,'']]],
   ['alpslocationcoordinate3d',['ALPSLocationCoordinate3D',['../struct_a_l_p_s_location_coordinate3_d.html',1,'']]],
   ['alpslocationmanager',['ALPSLocationManager',['../interface_a_l_p_s_location_manager.html',1,'']]],
   ['alpslocationmanagerdelegate_20_2dp',['ALPSLocationManagerDelegate -p',['../protocol_a_l_p_s_location_manager_delegate_01-p.html',1,'']]],

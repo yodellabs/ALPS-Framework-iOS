@@ -106,18 +106,18 @@ Inheritance diagram for &lt;ALPSLocationManagerDelegate &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:ab433af2245f36466f97192ea8044a065"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#ab433af2245f36466f97192ea8044a065">locationManager:didUpdateLocation:andPoseTransform:fromBeacons:timeStamp:</a></td></tr>
-<tr class="separator:ab433af2245f36466f97192ea8044a065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4232d135f9225b06d5ee0de550120c11"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a4232d135f9225b06d5ee0de550120c11">locationManager:didUpdateLocation:andPoseTransform:fromBeacons:timeStamp:</a></td></tr>
+<tr class="separator:a4232d135f9225b06d5ee0de550120c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76793d20f91ad210a63b6cdbfeb87161"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a76793d20f91ad210a63b6cdbfeb87161">locationManagerDidStartUpdatingLocation:</a></td></tr>
 <tr class="separator:a76793d20f91ad210a63b6cdbfeb87161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40a45fb57e95c6e7a338d9f654188151"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a40a45fb57e95c6e7a338d9f654188151">locationManagerDidStopUpdatingLocation:</a></td></tr>
 <tr class="separator:a40a45fb57e95c6e7a338d9f654188151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44af7beac110f72d48aee52aef923cd0"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a44af7beac110f72d48aee52aef923cd0">locationManager:didUpdateFloorPlanImage:withPixelScale:</a></td></tr>
-<tr class="separator:a44af7beac110f72d48aee52aef923cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ecbe72113ae071c218662e0cea93827"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a0ecbe72113ae071c218662e0cea93827">locationManager:didChangeToGridNamed:withFloorPlanImage:pixelScale:</a></td></tr>
+<tr class="separator:a0ecbe72113ae071c218662e0cea93827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
-<a id="a44af7beac110f72d48aee52aef923cd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44af7beac110f72d48aee52aef923cd0">&#9670;&nbsp;</a></span>locationManager:didUpdateFloorPlanImage:withPixelScale:()</h2>
+<a id="a0ecbe72113ae071c218662e0cea93827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ecbe72113ae071c218662e0cea93827">&#9670;&nbsp;</a></span>locationManager:didChangeToGridNamed:withFloorPlanImage:pixelScale:()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,13 +132,19 @@ Instance Methods</h2></td></tr>
           <td class="paramname"><em>manager</em></td>
         </tr>
         <tr>
-          <td class="paramkey">didUpdateFloorPlanImage:</td>
+          <td class="paramkey">didChangeToGridNamed:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>gridName</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withFloorPlanImage:</td>
           <td></td>
           <td class="paramtype">(UIImage *)&#160;</td>
           <td class="paramname"><em>floorPlanImage</em></td>
         </tr>
         <tr>
-          <td class="paramkey">withPixelScale:</td>
+          <td class="paramkey">pixelScale:</td>
           <td></td>
           <td class="paramtype">(double)&#160;</td>
           <td class="paramname"><em>scale</em>&#160;</td>
@@ -166,8 +172,8 @@ Instance Methods</h2></td></tr>
 
 </div>
 </div>
-<a id="ab433af2245f36466f97192ea8044a065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab433af2245f36466f97192ea8044a065">&#9670;&nbsp;</a></span>locationManager:didUpdateLocation:andPoseTransform:fromBeacons:timeStamp:()</h2>
+<a id="a4232d135f9225b06d5ee0de550120c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4232d135f9225b06d5ee0de550120c11">&#9670;&nbsp;</a></span>locationManager:didUpdateLocation:andPoseTransform:fromBeacons:timeStamp:()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +187,7 @@ Instance Methods</h2></td></tr>
         <tr>
           <td class="paramkey">didUpdateLocation:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="interface_a_l_p_s_local_location.html">ALPSLocalLocation</a> *)&#160;</td>
+          <td class="paramtype">(<a class="el" href="struct_a_l_p_s_location3_d.html">ALPSLocation3D</a>)&#160;</td>
           <td class="paramname"><em>location</em></td>
         </tr>
         <tr>
@@ -287,7 +293,7 @@ Instance Methods</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this protocol was generated from the following file:<ul>
-<li>/Users/dermeister/Dev/ALPS.framework/Headers/<a class="el" href="_a_l_p_s_location_manager_8h_source.html">ALPSLocationManager.h</a></li>
+<li>/Users/dermeister/Dev/ALPS-Framework-iOS/ALPS.framework/Headers/<a class="el" href="_a_l_p_s_location_manager_8h_source.html">ALPSLocationManager.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

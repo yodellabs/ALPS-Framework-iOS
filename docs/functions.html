@@ -89,8 +89,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <div class="contents">
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div><ul>
-<li>fuseRelativeLocationWithX:y:z:timeStamp:
-: <a class="el" href="interface_a_l_p_s_location_manager.html#aede8f8a5d3a3c79132d6bd0f97248125">ALPSLocationManager</a>
+<li>fuseVioCoordinateX:y:z:yEulerAngle:timeStamp:
+: <a class="el" href="interface_a_l_p_s_location_manager.html#ac0265954da277761433cfb90aabdebaf">ALPSLocationManager</a>
 </li>
 <li>initWithCoordinate:xAccuracy:yAccuracy:zAccuracy:
 : <a class="el" href="interface_a_l_p_s_local_location.html#ad27bc13e9cb3b44aca38c7aefde154c8">ALPSLocalLocation</a>
@@ -98,17 +98,20 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>initWithMAC:slot:range:rssi:timeStamp:
 : <a class="el" href="interface_a_l_p_s_range_data_point.html#aec8e463d89cdb2484495ba3a507a0b68">ALPSRangeDataPoint</a>
 </li>
-<li>initWithRemoteRealmIdentifier:
-: <a class="el" href="interface_a_l_p_s_location_manager.html#aac13f0f76761f72482b09dd4a83ef960">ALPSLocationManager</a>
+<li>initWithRemoteRealmIdentifier:solveIn3D:
+: <a class="el" href="interface_a_l_p_s_location_manager.html#a19abe49d2468e4d86b0ed0f93d07f46c">ALPSLocationManager</a>
+</li>
+<li>initWithRemoteRealmIdentifier:useVIO:solveIn3D:
+: <a class="el" href="interface_a_l_p_s_location_manager.html#a4ace45836efce86455cea5605aa7fe7d">ALPSLocationManager</a>
 </li>
 <li>initWithX:y:z:
 : <a class="el" href="interface_a_l_p_s_local_location.html#a3bd579a27641fd28731be4bf52e5cbbc">ALPSLocalLocation</a>
 </li>
-<li>locationManager:didUpdateFloorPlanImage:withPixelScale:
-: <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a44af7beac110f72d48aee52aef923cd0">&lt;ALPSLocationManagerDelegate &gt;</a>
+<li>locationManager:didChangeToGridNamed:withFloorPlanImage:pixelScale:
+: <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a0ecbe72113ae071c218662e0cea93827">&lt;ALPSLocationManagerDelegate &gt;</a>
 </li>
 <li>locationManager:didUpdateLocation:andPoseTransform:fromBeacons:timeStamp:
-: <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#ab433af2245f36466f97192ea8044a065">&lt;ALPSLocationManagerDelegate &gt;</a>
+: <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a4232d135f9225b06d5ee0de550120c11">&lt;ALPSLocationManagerDelegate &gt;</a>
 </li>
 <li>locationManagerDidStartUpdatingLocation:
 : <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a76793d20f91ad210a63b6cdbfeb87161">&lt;ALPSLocationManagerDelegate &gt;</a>
@@ -116,8 +119,20 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>locationManagerDidStopUpdatingLocation:
 : <a class="el" href="protocol_a_l_p_s_location_manager_delegate_01-p.html#a40a45fb57e95c6e7a338d9f654188151">&lt;ALPSLocationManagerDelegate &gt;</a>
 </li>
+<li>resumeUpdatingLocation
+: <a class="el" href="interface_a_l_p_s_location_manager.html#a859f1f22fa28a3c2289dd144e7d8140d">ALPSLocationManager</a>
+</li>
+<li>sendLocationUpdatesToServerWithHostHame:port:
+: <a class="el" href="interface_a_l_p_s_location_manager.html#a3f09548933c4f98c5eda2bb1c64e6e0c">ALPSLocationManager</a>
+</li>
 <li>startUpdatingLocation
 : <a class="el" href="interface_a_l_p_s_location_manager.html#a297686ab2968da1cf72a9e525e47ce49">ALPSLocationManager</a>
+</li>
+<li>stopSendingLocationUdpatesToServer
+: <a class="el" href="interface_a_l_p_s_location_manager.html#a7c047e1d592849c79e1c6a1862f37a88">ALPSLocationManager</a>
+</li>
+<li>stopUpdatingLocation
+: <a class="el" href="interface_a_l_p_s_location_manager.html#a05d6a53c0148c04b5a591772be6c36a5">ALPSLocationManager</a>
 </li>
 </ul>
 </div><!-- contents -->

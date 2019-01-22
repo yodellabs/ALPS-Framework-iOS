@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "ALPSLocation3D", "struct_a_l_p_s_location3_d.html", null ],
     [ "ALPSLocationCoordinate3D", "struct_a_l_p_s_location_coordinate3_d.html", null ],
     [ "ALPSPoseTransform", "struct_a_l_p_s_pose_transform.html", null ],
     [ "<NSObject>", null, [

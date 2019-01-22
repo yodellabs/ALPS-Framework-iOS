@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fuserelativelocationwithx_3ay_3az_3atimestamp_3a',['fuseRelativeLocationWithX:y:z:timeStamp:',['../interface_a_l_p_s_location_manager.html#aede8f8a5d3a3c79132d6bd0f97248125',1,'ALPSLocationManager']]]
+  ['fuseviocoordinatex_3ay_3az_3ayeulerangle_3atimestamp_3a',['fuseVioCoordinateX:y:z:yEulerAngle:timeStamp:',['../interface_a_l_p_s_location_manager.html#ac0265954da277761433cfb90aabdebaf',1,'ALPSLocationManager']]]
 ];
